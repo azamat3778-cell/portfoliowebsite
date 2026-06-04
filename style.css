@@ -15,6 +15,9 @@ body {
 }
 
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   padding-block: 20px;
   padding-block-start: 20px;
   padding-block-end: 20px;
@@ -471,11 +474,4 @@ p {
 
 .family-name span {
   color: #0e0d57;
-}
-
-.telegram {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  bottom: 15px;
 }
