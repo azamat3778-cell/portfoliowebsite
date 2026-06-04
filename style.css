@@ -472,3 +472,10 @@ p {
 .family-name span {
   color: #0e0d57;
 }
+
+.telegram {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  bottom: 15px;
+}
